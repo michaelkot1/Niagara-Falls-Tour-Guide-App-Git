@@ -6,45 +6,43 @@ A GPS-based audio tour guide application for Niagara Falls, similar to Shaka Gui
 
 - Real-time GPS tracking and navigation
 - Automatic audio playback based on location
-- Offline map and audio support
-- Car audio system integration
 - Points of interest with detailed information
 - Event calendar for local activities
-- User feedback system
+- Home, Explore, Tours, Events, and Settings sections
 
 ## Requirements
 
 - iOS 14.0+
 - Xcode 13.0+
 - Swift 5.5+
-- CocoaPods (for dependencies)
 
 ## Installation
 
 1. Clone the repository
-2. Install dependencies:
-   ```bash
-   pod install
-   ```
-3. Open `Niagara Falls SightSeeing.xcodeproj` in Xcode
-4. Build and run the project
+2. Open `Niagara Falls SightSeeing.xcodeproj` in Xcode
+3. Build and run the project
 
 ## Usage
 
 1. Launch the app and grant location permissions
-2. Download offline content when prompted
+2. Navigate through the tabbed interface to access different features:
+   - Home: Quick access to main features
+   - Explore: Discover points of interest
+   - Tours: Follow guided audio tours
+   - Events: View calendar of local activities
+   - Settings: Configure app preferences
 3. Start the tour from any location
 4. Follow the map and listen to audio commentary
 5. Explore points of interest at your own pace
 
 ## Architecture
 
-The app follows the MVVM architecture pattern and uses SwiftUI for the user interface. Key components include:
+The app is built with SwiftUI and follows a component-based architecture. Key components include:
 
-- LocationManager: Handles GPS tracking and geofencing
-- AudioManager: Manages audio playback and car audio integration
-- TourManager: Controls tour content and points of interest
-- ContentView: Main interface with map integration
+- LocationManager: Handles GPS tracking and location updates
+- TourAudioManager: Manages audio playback for tours
+- AppState: Controls the application state and navigation
+- View Components: HomeView, ExploreView, ToursView, CalendarView, SettingsView
 
 ## Contributing
 
@@ -62,4 +60,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 - Inspired by Shaka Guide
 - Uses MapKit for navigation
-- Built with SwiftUI and Core Location 
+- Built with SwiftUI and Core Location
