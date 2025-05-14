@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>MKDirectionsApplicationSupportedModes</key>
+    <array>
+        <string>MKDirectionsModeCar</string>
+        <string>MKDirectionsModeWalking</string>
+    </array>
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>Your location is used to show your position on the map and guide you during the tour experience.</string>
+    <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+    <string>Your location is used to show your position on the map, guide you during the tour experience, and automatically play audio when you approach tour points.</string>
+    <key>UIBackgroundModes</key>
+    <array>
+        <string>audio</string>
+        <string>location</string>
+    </array>
+</dict>
+</plist>

@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7005C8702DA597E600372829 /* skylon tower.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7005C86F2DA597E600372829 /* skylon tower.mp3 */; };
+		7005C8722DA597EF00372829 /* niagara whirpools.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7005C8712DA597EF00372829 /* niagara whirpools.mp3 */; };
+		7005C8742DA597F400372829 /* journey behind.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7005C8732DA597F400372829 /* journey behind.mp3 */; };
+		7005C8782DA597FD00372829 /* cave of the winds.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7005C8772DA597FD00372829 /* cave of the winds.mp3 */; };
+		7005C8822DA5C30300372829 /* horseshoe falls.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7005C8812DA5C30300372829 /* horseshoe falls.mp3 */; };
+		70082CB72D9C9F99009C659D /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70082CB62D9C9F99009C659D /* ColorExtension.swift */; };
+		70082CBB2D9CA10C009C659D /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70082CBA2D9CA10C009C659D /* Models.swift */; };
+		70082CBD2D9CA15B009C659D /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70082CBC2D9CA15B009C659D /* MainTabView.swift */; };
+		70082CBF2D9CA18E009C659D /* HomeSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70082CBE2D9CA18E009C659D /* HomeSwift.swift */; };
+		70082CC12D9CA1B5009C659D /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70082CC02D9CA1B5009C659D /* ExploreView.swift */; };
+		70082CC32D9CA1E2009C659D /* ToursView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70082CC22D9CA1E2009C659D /* ToursView.swift */; };
+		70082CC52D9CA1FC009C659D /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70082CC42D9CA1FC009C659D /* SettingsView.swift */; };
+		7018A6D62D7B9F7E00C38BA8 /* Niagara_Falls_SightSeeingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7018A6D52D7B9F7E00C38BA8 /* Niagara_Falls_SightSeeingApp.swift */; };
+		7018A6D82D7B9F7E00C38BA8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7018A6D72D7B9F7E00C38BA8 /* ContentView.swift */; };
+		7018A6DA2D7B9F8000C38BA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7018A6D92D7B9F8000C38BA8 /* Assets.xcassets */; };
+		7018A6DD2D7B9F8000C38BA8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7018A6DC2D7B9F8000C38BA8 /* Preview Assets.xcassets */; };
+		70E9D40B2DC97818002ECC3D /* goat-island.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 70E9D4002DC97818002ECC3D /* goat-island.jpg */; };
+		70E9D40C2DC97818002ECC3D /* niagara-parks-power-station.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 70E9D4072DC97818002ECC3D /* niagara-parks-power-station.jpg */; };
+		70E9D40D2DC97818002ECC3D /* niagara-falls-state-park.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 70E9D4052DC97818002ECC3D /* niagara-falls-state-park.jpg */; };
+		70E9D40E2DC97818002ECC3D /* niagara-on-the-lake.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 70E9D4062DC97818002ECC3D /* niagara-on-the-lake.jpg */; };
+		70E9D40F2DC97818002ECC3D /* niagara-falls-in-autumn.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 70E9D4042DC97818002ECC3D /* niagara-falls-in-autumn.jpg */; };
+		70E9D4102DC97818002ECC3D /* clifton-hill.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 70E9D3FF2DC97818002ECC3D /* clifton-hill.jpg */; };
+		70E9D4112DC97818002ECC3D /* newPIC.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 70E9D4022DC97818002ECC3D /* newPIC.jpg */; };
+		70E9D4122DC97818002ECC3D /* niagara-city-cruises.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 70E9D4032DC97818002ECC3D /* niagara-city-cruises.jpg */; };
+		70E9D4132DC97818002ECC3D /* brink-of-the-falls.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 70E9D3FE2DC97818002ECC3D /* brink-of-the-falls.jpg */; };
+		70E9D4142DC97818002ECC3D /* skylon-tower.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 70E9D4092DC97818002ECC3D /* skylon-tower.jpg */; };
+		70E9D4152DC97818002ECC3D /* rainbow-bridge.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 70E9D4082DC97818002ECC3D /* rainbow-bridge.jpg */; };
+		70E9D4162DC97818002ECC3D /* Logo_maker_project-removebg-preview 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 70E9D4012DC97818002ECC3D /* Logo_maker_project-removebg-preview 1.png */; };
+		70E9D4602DCD4B79002ECC3D /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E9D45F2DCD4B79002ECC3D /* CalendarView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7005C86F2DA597E600372829 /* skylon tower.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "skylon tower.mp3"; sourceTree = "<group>"; };
+		7005C8712DA597EF00372829 /* niagara whirpools.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "niagara whirpools.mp3"; sourceTree = "<group>"; };
+		7005C8732DA597F400372829 /* journey behind.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "journey behind.mp3"; sourceTree = "<group>"; };
+		7005C8772DA597FD00372829 /* cave of the winds.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "cave of the winds.mp3"; sourceTree = "<group>"; };
+		7005C87F2DA5987300372829 /* bridal viel falls.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "bridal viel falls.mp3"; path = "../../../../../../Downloads/bridal viel falls.mp3"; sourceTree = "<group>"; };
+		7005C8802DA5987600372829 /* american falls.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "american falls.mp3"; sourceTree = "<group>"; };
+		7005C8812DA5C30300372829 /* horseshoe falls.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "horseshoe falls.mp3"; sourceTree = "<group>"; };
+		70082CB52D9C9C8D009C659D /* Niagara-Falls-SightSeeing-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Niagara-Falls-SightSeeing-Info.plist"; sourceTree = SOURCE_ROOT; };
+		70082CB62D9C9F99009C659D /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		70082CBA2D9CA10C009C659D /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		70082CBC2D9CA15B009C659D /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		70082CBE2D9CA18E009C659D /* HomeSwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeSwift.swift; sourceTree = "<group>"; };
+		70082CC02D9CA1B5009C659D /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
+		70082CC22D9CA1E2009C659D /* ToursView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToursView.swift; sourceTree = "<group>"; };
+		70082CC42D9CA1FC009C659D /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		7018A6D22D7B9F7D00C38BA8 /* Niagara Falls SightSeeing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Niagara Falls SightSeeing.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7018A6D52D7B9F7E00C38BA8 /* Niagara_Falls_SightSeeingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Niagara_Falls_SightSeeingApp.swift; sourceTree = "<group>"; };
+		7018A6D72D7B9F7E00C38BA8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7018A6D92D7B9F8000C38BA8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7018A6DC2D7B9F8000C38BA8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		70E9D3FE2DC97818002ECC3D /* brink-of-the-falls.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "brink-of-the-falls.jpg"; sourceTree = "<group>"; };
+		70E9D3FF2DC97818002ECC3D /* clifton-hill.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "clifton-hill.jpg"; sourceTree = "<group>"; };
+		70E9D4002DC97818002ECC3D /* goat-island.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "goat-island.jpg"; sourceTree = "<group>"; };
+		70E9D4012DC97818002ECC3D /* Logo_maker_project-removebg-preview 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Logo_maker_project-removebg-preview 1.png"; sourceTree = "<group>"; };
+		70E9D4022DC97818002ECC3D /* newPIC.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = newPIC.jpg; sourceTree = "<group>"; };
+		70E9D4032DC97818002ECC3D /* niagara-city-cruises.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "niagara-city-cruises.jpg"; sourceTree = "<group>"; };
+		70E9D4042DC97818002ECC3D /* niagara-falls-in-autumn.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "niagara-falls-in-autumn.jpg"; sourceTree = "<group>"; };
+		70E9D4052DC97818002ECC3D /* niagara-falls-state-park.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "niagara-falls-state-park.jpg"; sourceTree = "<group>"; };
+		70E9D4062DC97818002ECC3D /* niagara-on-the-lake.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "niagara-on-the-lake.jpg"; sourceTree = "<group>"; };
+		70E9D4072DC97818002ECC3D /* niagara-parks-power-station.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "niagara-parks-power-station.jpg"; sourceTree = "<group>"; };
+		70E9D4082DC97818002ECC3D /* rainbow-bridge.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "rainbow-bridge.jpg"; sourceTree = "<group>"; };
+		70E9D4092DC97818002ECC3D /* skylon-tower.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "skylon-tower.jpg"; sourceTree = "<group>"; };
+		70E9D45F2DCD4B79002ECC3D /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7018A6CF2D7B9F7D00C38BA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7005C87D2DA5984100372829 /* niagara falls audio  */ = {
+			isa = PBXGroup;
+			children = (
+				7005C8812DA5C30300372829 /* horseshoe falls.mp3 */,
+				7005C8802DA5987600372829 /* american falls.mp3 */,
+				7005C87F2DA5987300372829 /* bridal viel falls.mp3 */,
+				7005C8772DA597FD00372829 /* cave of the winds.mp3 */,
+				7005C8732DA597F400372829 /* journey behind.mp3 */,
+				7005C8712DA597EF00372829 /* niagara whirpools.mp3 */,
+				7005C86F2DA597E600372829 /* skylon tower.mp3 */,
+			);
+			path = "niagara falls audio ";
+			sourceTree = "<group>";
+		};
+		7018A6C92D7B9F7D00C38BA8 = {
+			isa = PBXGroup;
+			children = (
+				7018A6D42D7B9F7D00C38BA8 /* Niagara Falls SightSeeing */,
+				7018A6D32D7B9F7D00C38BA8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7018A6D32D7B9F7D00C38BA8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7018A6D22D7B9F7D00C38BA8 /* Niagara Falls SightSeeing.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7018A6D42D7B9F7D00C38BA8 /* Niagara Falls SightSeeing */ = {
+			isa = PBXGroup;
+			children = (
+				70082CB52D9C9C8D009C659D /* Niagara-Falls-SightSeeing-Info.plist */,
+				7018A6D52D7B9F7E00C38BA8 /* Niagara_Falls_SightSeeingApp.swift */,
+				7018A6D72D7B9F7E00C38BA8 /* ContentView.swift */,
+				70082CB62D9C9F99009C659D /* ColorExtension.swift */,
+				70082CBA2D9CA10C009C659D /* Models.swift */,
+				70082CBC2D9CA15B009C659D /* MainTabView.swift */,
+				70E9D45F2DCD4B79002ECC3D /* CalendarView.swift */,
+				70082CBE2D9CA18E009C659D /* HomeSwift.swift */,
+				70082CC02D9CA1B5009C659D /* ExploreView.swift */,
+				70082CC22D9CA1E2009C659D /* ToursView.swift */,
+				70082CC42D9CA1FC009C659D /* SettingsView.swift */,
+				7018A6D92D7B9F8000C38BA8 /* Assets.xcassets */,
+				70E9D40A2DC97818002ECC3D /* picsOfNiagara */,
+				7018A6DB2D7B9F8000C38BA8 /* Preview Content */,
+			);
+			path = "Niagara Falls SightSeeing";
+			sourceTree = "<group>";
+		};
+		7018A6DB2D7B9F8000C38BA8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7005C87D2DA5984100372829 /* niagara falls audio  */,
+				7018A6DC2D7B9F8000C38BA8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		70E9D40A2DC97818002ECC3D /* picsOfNiagara */ = {
+			isa = PBXGroup;
+			children = (
+				70E9D4042DC97818002ECC3D /* niagara-falls-in-autumn.jpg */,
+				70E9D4002DC97818002ECC3D /* goat-island.jpg */,
+				70E9D4022DC97818002ECC3D /* newPIC.jpg */,
+				70E9D3FF2DC97818002ECC3D /* clifton-hill.jpg */,
+				70E9D4012DC97818002ECC3D /* Logo_maker_project-removebg-preview 1.png */,
+				70E9D4032DC97818002ECC3D /* niagara-city-cruises.jpg */,
+				70E9D4092DC97818002ECC3D /* skylon-tower.jpg */,
+				70E9D4082DC97818002ECC3D /* rainbow-bridge.jpg */,
+				70E9D3FE2DC97818002ECC3D /* brink-of-the-falls.jpg */,
+				70E9D4072DC97818002ECC3D /* niagara-parks-power-station.jpg */,
+				70E9D4052DC97818002ECC3D /* niagara-falls-state-park.jpg */,
+				70E9D4062DC97818002ECC3D /* niagara-on-the-lake.jpg */,
+			);
+			path = picsOfNiagara;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7018A6D12D7B9F7D00C38BA8 /* Niagara Falls SightSeeing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7018A6E02D7B9F8000C38BA8 /* Build configuration list for PBXNativeTarget "Niagara Falls SightSeeing" */;
+			buildPhases = (
+				7018A6CE2D7B9F7D00C38BA8 /* Sources */,
+				7018A6CF2D7B9F7D00C38BA8 /* Frameworks */,
+				7018A6D02D7B9F7D00C38BA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Niagara Falls SightSeeing";
+			productName = "Niagara Falls SightSeeing";
+			productReference = 7018A6D22D7B9F7D00C38BA8 /* Niagara Falls SightSeeing.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7018A6CA2D7B9F7D00C38BA8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					7018A6D12D7B9F7D00C38BA8 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 7018A6CD2D7B9F7D00C38BA8 /* Build configuration list for PBXProject "Niagara Falls SightSeeing" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7018A6C92D7B9F7D00C38BA8;
+			productRefGroup = 7018A6D32D7B9F7D00C38BA8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7018A6D12D7B9F7D00C38BA8 /* Niagara Falls SightSeeing */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7018A6D02D7B9F7D00C38BA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7018A6DD2D7B9F8000C38BA8 /* Preview Assets.xcassets in Resources */,
+				70E9D40B2DC97818002ECC3D /* goat-island.jpg in Resources */,
+				70E9D40C2DC97818002ECC3D /* niagara-parks-power-station.jpg in Resources */,
+				70E9D40D2DC97818002ECC3D /* niagara-falls-state-park.jpg in Resources */,
+				70E9D40E2DC97818002ECC3D /* niagara-on-the-lake.jpg in Resources */,
+				70E9D40F2DC97818002ECC3D /* niagara-falls-in-autumn.jpg in Resources */,
+				70E9D4102DC97818002ECC3D /* clifton-hill.jpg in Resources */,
+				70E9D4112DC97818002ECC3D /* newPIC.jpg in Resources */,
+				70E9D4122DC97818002ECC3D /* niagara-city-cruises.jpg in Resources */,
+				70E9D4132DC97818002ECC3D /* brink-of-the-falls.jpg in Resources */,
+				70E9D4142DC97818002ECC3D /* skylon-tower.jpg in Resources */,
+				70E9D4152DC97818002ECC3D /* rainbow-bridge.jpg in Resources */,
+				70E9D4162DC97818002ECC3D /* Logo_maker_project-removebg-preview 1.png in Resources */,
+				7005C8742DA597F400372829 /* journey behind.mp3 in Resources */,
+				7005C8722DA597EF00372829 /* niagara whirpools.mp3 in Resources */,
+				7018A6DA2D7B9F8000C38BA8 /* Assets.xcassets in Resources */,
+				7005C8702DA597E600372829 /* skylon tower.mp3 in Resources */,
+				7005C8822DA5C30300372829 /* horseshoe falls.mp3 in Resources */,
+				7005C8782DA597FD00372829 /* cave of the winds.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7018A6CE2D7B9F7D00C38BA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70082CB72D9C9F99009C659D /* ColorExtension.swift in Sources */,
+				7018A6D82D7B9F7E00C38BA8 /* ContentView.swift in Sources */,
+				7018A6D62D7B9F7E00C38BA8 /* Niagara_Falls_SightSeeingApp.swift in Sources */,
+				70082CBB2D9CA10C009C659D /* Models.swift in Sources */,
+				70082CC52D9CA1FC009C659D /* SettingsView.swift in Sources */,
+				70E9D4602DCD4B79002ECC3D /* CalendarView.swift in Sources */,
+				70082CBD2D9CA15B009C659D /* MainTabView.swift in Sources */,
+				70082CC12D9CA1B5009C659D /* ExploreView.swift in Sources */,
+				70082CBF2D9CA18E009C659D /* HomeSwift.swift in Sources */,
+				70082CC32D9CA1E2009C659D /* ToursView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7018A6DE2D7B9F8000C38BA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7018A6DF2D7B9F8000C38BA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7018A6E12D7B9F8000C38BA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Niagara Falls SightSeeing/Preview Content\"";
+				DEVELOPMENT_TEAM = Y8SDGALAMG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Niagara-Falls-SightSeeing-Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.travel";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.codewithmikey.Niagara-Falls-SightSeeing";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7018A6E22D7B9F8000C38BA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Niagara Falls SightSeeing/Preview Content\"";
+				DEVELOPMENT_TEAM = Y8SDGALAMG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Niagara-Falls-SightSeeing-Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.travel";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.codewithmikey.Niagara-Falls-SightSeeing";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7018A6CD2D7B9F7D00C38BA8 /* Build configuration list for PBXProject "Niagara Falls SightSeeing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7018A6DE2D7B9F8000C38BA8 /* Debug */,
+				7018A6DF2D7B9F8000C38BA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7018A6E02D7B9F8000C38BA8 /* Build configuration list for PBXNativeTarget "Niagara Falls SightSeeing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7018A6E12D7B9F8000C38BA8 /* Debug */,
+				7018A6E22D7B9F8000C38BA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7018A6CA2D7B9F7D00C38BA8 /* Project object */;
+}
