@@ -26,7 +26,7 @@ A GPS-based audio tour guide application for Niagara Falls, similar to Shaka Gui
    ```bash
    pod install
    ```
-3. Open `NiagaraFallsCursorAI.xcworkspace` in Xcode
+3. Open `Niagara Falls SightSeeing.xcodeproj` in Xcode
 4. Build and run the project
 
 ## Usage
